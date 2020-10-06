@@ -1,7 +1,7 @@
 # nanoMFG Software Planning Document
 <!-- Replace text below with long title of project:short-name -->
-## The Coolest nanoHUB Tool: nanocool
-### Target Release: #.#.# : Month Day, 20##
+## Tool for Raman of Nanodiamond: nanodiam
+### Target Release: 1.0.0 : December 31, 2020
 
 ## Development Team
 <!-- Complete table for all team members 
@@ -10,14 +10,14 @@
 -->
 Name | Role | github user | nanohub user | email | status
 ---|---|---|---|---|---
-Joe Shmo | lead | jshmo | jshmo | jshmo@nanocool.co | active
-Alice Land | developer | alice1 | alice2 | alice@wonderland | inactive
+Adrian Manjarrez | developer | adrianm3 | amanjarrez | adrianm3@illinois.edu | active
+ |  |  |  |  | 
 
-**nanoMFG Github Team(s):** @coolteam
+**nanoMFG Github Team(s):** @nanodiam-dev
 **nanoHUB Group(s):**
 
 ## 1. Introduction
-A  concise description of the current iteration of work.
+This tool will be used to analyze the Raman spectra of nanodiamonds.
 
 ### 1.1 Purpose and Vision Statement
 <!-- Why are we building this tool?
@@ -26,12 +26,18 @@ How does it relate to existing tools and existing software?
 How does it fit into the overall objectives for the nano **manufacturing** node?
 Who will use this software?
 -->
+The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and primary users of this software will consist of researchers growning nanodiamond samples.
+
+
 
 ### 1.2 References
 <!--List any documents or background material that are relevant.  Links are useful. For instance, a link to a wiki or readme page in the project repository, or link to a uploaded file (doc, pdf, ppt, etc.).-->
+https://en.wikipedia.org/wiki/Raman_spectroscopy#Applications  
+https://nanohub.org/resources/graft
 
 ## 2 Overview and Major Planned Features
 <!--Provide and overview characterising this proposed release.  Describe how users will interact with each proposed feature. Include a schematic/diagram to illustrate an overview of proposed software and achitecture componets for the project-->
+
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
