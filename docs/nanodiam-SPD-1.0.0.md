@@ -37,18 +37,24 @@ https://nanohub.org/resources/graft
 
 ## 2 Overview and Major Planned Features
 <!--Provide and overview characterising this proposed release.  Describe how users will interact with each proposed feature. Include a schematic/diagram to illustrate an overview of proposed software and achitecture componets for the project-->
-
+Users will be able to upload files and view graphs/data similar to the graphene fitting tool. 
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
+This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar. 
 
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
-
+Goals:  
+Successfuly upload it to nanohub  
+make sure inputs lead to correct outputs
 
 ##### 2.2.1 Planned Features
+Features:  
+be able to place mouse cursor on graph to see specific values  
+possilby type in a value in the x-axis to see its correspoding value in the y-axis, vice versa
 
-#### 2.2.2 Release Notes 
+#### 2.2.2 Release Notes
 ##### v#.#.#
 
 ### 2.3 Scope and Limitations for Subsequent Releases
@@ -56,9 +62,11 @@ https://nanohub.org/resources/graft
 
 ### 2.3 Operating Environment
 <!--Describe the target environment.  Identify components or application that are needed.  Describe technical infrastructure need to support the application.-->
+The appliction will be operated on the nanohub website. I also plan to include a way to download the tool for local use.  
 
 ### 2.4 Design and Implementation Constraints
 <!--This could include pre-existing code that needs to be incorporated ,a certain programming language or toolkit and software dependencies.  Describe the origin and rationale for each constraint.-->
+
 
 ## 3 User Interaction and Design
 
@@ -70,29 +78,37 @@ Features used
 Experience level
 Type of interaction
 Provide links to any user surveys, questionnaires, interviews, feedback or other relevant information.-->
-
+Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. Although, the user must be knowledgable about the Raman data. 
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
+Well placed button  
+Clear and easy to read output graphs/data  
+Include user manual with pictures depicting how to use the application and what to expect from the output
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
+UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the graphs/data will apear in small windows with the ability to save/print.
+
 
 ### 3.4 Documentation Plan
 <!-- List planned documentation activities -->
 
 ### 3.5 User Outreach Plan
 <!-- List upcoming activities designed to elicit user feedback and/or engage new users.  Use issues for activities that will be completed this iteration-->
-
+Contact colleagues to test the program
+Include it in the next nanoHub newsletter
 ## 4. Data And Quality Attributes
 
 ### 4.1 Data Dictionary
 <!--Summarize inputs and outputs for the application.-->
+The input will be the a raman spectrum file. The outputs will be the graph of the spectrum and also corresponding values of sp2/sp3 peaks.  
 
 ### 4.2 Usability and Performance
 <!--Summarize usability requirements such as easy of adoption for new users (eg example data),  inline documentation, avoiding errors, efficient interaction, etc.  Describe performance expectations  and/or document challenges.  Note you can reference user requirements from above if needed. -->
 
 ### 4.3 Testing, Verification and Validation
 <!--Describe What data is necessary to verify the basic functionality of the application.  Provide a testing plan that includes a list of issues for each planned activity.  Describe data sets that are needed to test validation.-->
+I will gather various raman data of nanodiamonds
 
 ### 4.4 Uncertainty Quantification
 <!--Identify and document possible sources of uncertainty. Categorize with standard labels, such as parametric, structural, algorithmic, experimental, interpolation.
