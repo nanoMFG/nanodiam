@@ -66,6 +66,7 @@ The appliction will be operated on the nanohub website. I also plan to include a
 
 ### 2.4 Design and Implementation Constraints
 <!--This could include pre-existing code that needs to be incorporated ,a certain programming language or toolkit and software dependencies.  Describe the origin and rationale for each constraint.-->
+Code from the Graphene Raman Fitting Tool will be adjusted to fit the needs of nanodiamond raman. This includes changing values and certain parts of the code. 
 
 
 ## 3 User Interaction and Design
@@ -83,12 +84,11 @@ Anticipated users will be researchers who are working with nanodiamonds. This co
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
 Well placed button  
 Clear and easy to read output graphs/data  
-Include user manual with pictures depicting how to use the application and what to expect from the output
+Include user manual with pictures depicting how to use the application and what to expect from the outputs
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
-UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the graphs/data will apear in small windows with the ability to save/print.
-
+UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the graphs/data will apear in small windows with the ability to save/print.  
 
 ### 3.4 Documentation Plan
 <!-- List planned documentation activities -->
@@ -105,12 +105,13 @@ The input will be the a raman spectrum file. The outputs will be the graph of th
 
 ### 4.2 Usability and Performance
 <!--Summarize usability requirements such as easy of adoption for new users (eg example data),  inline documentation, avoiding errors, efficient interaction, etc.  Describe performance expectations  and/or document challenges.  Note you can reference user requirements from above if needed. -->
+Users must be knowledgable about the nanodiamond spectrum, although example data will be provided. Additionally, an instruction manual will be included to explain the layout, features, and how to use the program.  
+
 
 ### 4.3 Testing, Verification and Validation
 <!--Describe What data is necessary to verify the basic functionality of the application.  Provide a testing plan that includes a list of issues for each planned activity.  Describe data sets that are needed to test validation.-->
-I will gather various raman data of nanodiamonds
+Data from different nanodiamond spectrums (from ones available online or personal data) will be used as inputs, and I will make sure the outputs match the data.
 
 ### 4.4 Uncertainty Quantification
 <!--Identify and document possible sources of uncertainty. Categorize with standard labels, such as parametric, structural, algorithmic, experimental, interpolation.
-
 Develop a plan for measuring and documenting uncertainty, e.g., using forward propagation or inverse UQ, and showing it in the application, if applicable.-->
