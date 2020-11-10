@@ -10,6 +10,7 @@
 -->
 Name | Role | github user | nanohub user | email | status
 ---|---|---|---|---|---
+Lili Cai| Lead | | |lilicai@illinois.edu|
 Adrian Manjarrez | developer | adrianm3 | amanjarrez | adrianm3@illinois.edu | active
  |  |  |  |  | 
 
@@ -105,7 +106,6 @@ The input will be the a raman spectrum file. The outputs will be the graph of th
 
 ### 4.2 Usability and Performance
 <!--Summarize usability requirements such as easy of adoption for new users (eg example data),  inline documentation, avoiding errors, efficient interaction, etc.  Describe performance expectations  and/or document challenges.  Note you can reference user requirements from above if needed. -->
-Users must be knowledgable about the nanodiamond spectrum, although example data will be provided. Additionally, an instruction manual will be included to explain the layout, features, and how to use the program.  
 
 
 ### 4.3 Testing, Verification and Validation
