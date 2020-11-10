@@ -11,7 +11,7 @@
 Name | Role | github user | nanohub user | email | status
 ---|---|---|---|---|---
 Lili Cai| Lead | | |lilicai@illinois.edu|
-Adrian Manjarrez | developer | adrianm3 | amanjarrez | adrianm3@illinois.edu | active
+Adrian Manjarrez | Developer | adrianm3 | amanjarrez | adrianm3@illinois.edu | active
  |  |  |  |  | 
 
 **nanoMFG Github Team(s):** @nanodiam-dev
@@ -27,33 +27,33 @@ How does it relate to existing tools and existing software?
 How does it fit into the overall objectives for the nano **manufacturing** node?
 Who will use this software?
 -->
-The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and primary users of this software will consist of researchers growning nanodiamond samples.
+The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and the primary users of this software will consist of researchers growning nanodiamond samples.
 
 
 
 ### 1.2 References
 <!--List any documents or background material that are relevant.  Links are useful. For instance, a link to a wiki or readme page in the project repository, or link to a uploaded file (doc, pdf, ppt, etc.).-->
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5635142/  
 https://en.wikipedia.org/wiki/Raman_spectroscopy#Applications  
 https://nanohub.org/resources/graft
 
 ## 2 Overview and Major Planned Features
 <!--Provide and overview characterising this proposed release.  Describe how users will interact with each proposed feature. Include a schematic/diagram to illustrate an overview of proposed software and achitecture componets for the project-->
-Users will be able to upload files and view graphs/data similar to the graphene fitting tool. 
+Users will be able to upload files and view graphs/data similar to the graphene fitting tool, but the correspond data will be for the diamond spectrum.
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
-This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar. 
+This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the data is displayed.
 
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
-Goals:  
-Successfuly upload it to nanohub  
-make sure inputs lead to correct outputs
+Goals:
+Make sure inputs (data) lead to correct outputs (graphs)
 
 ##### 2.2.1 Planned Features
 Features:  
-be able to place mouse cursor on graph to see specific values  
-possilby type in a value in the x-axis to see its correspoding value in the y-axis, vice versa
+Be able to place mouse cursor on graph to see specific values  
+Add function to type in a value in the x-axis to see its correspoding value in the y-axis, vice versa
 
 #### 2.2.2 Release Notes
 ##### v#.#.#
@@ -80,16 +80,17 @@ Features used
 Experience level
 Type of interaction
 Provide links to any user surveys, questionnaires, interviews, feedback or other relevant information.-->
-Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. Although, the user must be knowledgable about the Raman data. 
+Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. There will likely be a function/area in which the user can provide feedback. 
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
-Well placed button  
 Clear and easy to read output graphs/data  
-Include user manual with pictures depicting how to use the application and what to expect from the outputs
+Include user manual with pictures on how to use the application and what to expect from the outputs  
+Well placed button  
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
 UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the graphs/data will apear in small windows with the ability to save/print.  
+<img alt = "Graphene Raman Fitting Tool Output" src = "https://github.com/nanoMFG/nanodiam/blob/adrianm3-patch-1/docs/fitting.PNG">
 
 ### 3.4 Documentation Plan
 <!-- List planned documentation activities -->
@@ -98,6 +99,7 @@ UI will be similar to that of the Graphene Raman Fitting Tool. There will be a b
 <!-- List upcoming activities designed to elicit user feedback and/or engage new users.  Use issues for activities that will be completed this iteration-->
 Contact colleagues to test the program
 Include it in the next nanoHub newsletter
+
 ## 4. Data And Quality Attributes
 
 ### 4.1 Data Dictionary
@@ -106,6 +108,7 @@ The input will be the a raman spectrum file. The outputs will be the graph of th
 
 ### 4.2 Usability and Performance
 <!--Summarize usability requirements such as easy of adoption for new users (eg example data),  inline documentation, avoiding errors, efficient interaction, etc.  Describe performance expectations  and/or document challenges.  Note you can reference user requirements from above if needed. -->
+Example data will be provided so that the user can see what to expect from their own data. 
 
 
 ### 4.3 Testing, Verification and Validation
