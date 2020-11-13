@@ -27,7 +27,7 @@ How does it relate to existing tools and existing software?
 How does it fit into the overall objectives for the nano **manufacturing** node?
 Who will use this software?
 -->
-The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and the primary users of this software will consist of researchers growning nanodiamond samples.
+The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and the primary users of this software will consist of researchers studying nanodiamond samples.
 
 
 
@@ -39,11 +39,11 @@ https://nanohub.org/resources/graft
 
 ## 2 Overview and Major Planned Features
 <!--Provide and overview characterising this proposed release.  Describe how users will interact with each proposed feature. Include a schematic/diagram to illustrate an overview of proposed software and achitecture componets for the project-->
-Users will be able to upload files and view graphs/data similar to the graphene fitting tool, but the correspond data will be for the diamond spectrum.
+Users will be able to upload files and view graphs/data similar to the graphene fitting tool, but the corresponding data will be for the diamond spectrum.
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
-This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the data is displayed.
+This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the outputs are displayed.
 
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
@@ -63,7 +63,7 @@ Add function to type in a value in the x-axis to see its correspoding value in t
 
 ### 2.3 Operating Environment
 <!--Describe the target environment.  Identify components or application that are needed.  Describe technical infrastructure need to support the application.-->
-The appliction will be operated on the nanohub website. I also plan to include a way to download the tool for local use.  
+The appliction will be operated on the nanoHub website. It will also be available for download for local use. 
 
 ### 2.4 Design and Implementation Constraints
 <!--This could include pre-existing code that needs to be incorporated ,a certain programming language or toolkit and software dependencies.  Describe the origin and rationale for each constraint.-->
@@ -80,16 +80,15 @@ Features used
 Experience level
 Type of interaction
 Provide links to any user surveys, questionnaires, interviews, feedback or other relevant information.-->
-Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. There will likely be a function/area in which the user can provide feedback. 
+Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. There will likely be a function/area in which the user can provide feedback or comments. 
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
 Clear and easy to read output graphs/data  
-Include user manual with pictures on how to use the application and what to expect from the outputs  
-Well placed button  
+Include user manual with pictures on how to use the application and what to expect from the outputs
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
-UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the graphs/data will apear in small windows with the ability to save/print.  
+UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the output raphs/data will apear in small windows with the ability to save/print.  
 <img alt = "Graphene Raman Fitting Tool Output" src = "https://github.com/nanoMFG/nanodiam/blob/adrianm3-patch-1/docs/fitting.PNG">
 
 ### 3.4 Documentation Plan
@@ -98,7 +97,8 @@ UI will be similar to that of the Graphene Raman Fitting Tool. There will be a b
 ### 3.5 User Outreach Plan
 <!-- List upcoming activities designed to elicit user feedback and/or engage new users.  Use issues for activities that will be completed this iteration-->
 Contact colleagues to test the program
-Include it in the next nanoHub newsletter
+Include it in nanoHub newsletters
+Provide survey to determinee ease of use, functionality, and reliability of the application
 
 ## 4. Data And Quality Attributes
 
