@@ -90,6 +90,7 @@ Include user manual or tutorial
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
 UI will be similar to that of the Graphene Raman Fitting Tool. There will be a button to upload or drag and drop files. Once uploaded, the output raphs/data will apear in small windows with the ability to save/print.  
+Example of Outputs From the Graphene Raman Fitting Tool:
 <img alt = "Graphene Raman Fitting Tool Output" src = "https://github.com/nanoMFG/nanodiam/blob/adrianm3-patch-1/docs/fitting.PNG">
 
 ### 3.4 Documentation Plan
