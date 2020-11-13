@@ -83,8 +83,9 @@ Provide links to any user surveys, questionnaires, interviews, feedback or other
 Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. There will likely be a function/area in which the user can provide feedback or comments. 
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
+Simple UI with clear features
 Clear and easy to read output graphs/data  
-Include user manual with pictures on how to use the application and what to expect from the outputs
+Include user manual or tutorial
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
