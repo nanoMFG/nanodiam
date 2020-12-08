@@ -10,8 +10,10 @@
 -->
 Name | Role | github user | nanohub user | email | status
 ---|---|---|---|---|---
-Lili Cai| Lead | | |lilicai@illinois.edu|
+Lili Cai| Lead | lilicaiuiuc| |lilicai@illinois.edu| active
 Adrian Manjarrez | Developer | adrianm3 | amanjarrez | adrianm3@illinois.edu | active
+Darren Adams | Developer | dadamsncsa | Darren K Adams| dadams@illinois.edu | active
+Aagam Shah | Developer | AagamShah97 | aagam2 | aagam2@illinois.edu | active
  |  |  |  |  | 
 
 **nanoMFG Github Team(s):** @nanodiam-dev
@@ -27,7 +29,7 @@ How does it relate to existing tools and existing software?
 How does it fit into the overall objectives for the nano **manufacturing** node?
 Who will use this software?
 -->
-The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and the primary users of this software will consist of researchers studying nanodiamond samples.
+The key benefit of developing this tool will be to more efficiently analyze the Raman spectra of nanodiamonds. It will be similar in concept to the Graphene Raman Fitting Tool, and the primary users of this software will consist of researchers studying nanodiamond samples. Furthermore, this tool will be included in a larger toolset that will be used for the analysis and synthesis of nanodiamond samples. This project fits into the overall objectives of the nano manufacturing node by progressing nanodiamond research and analysis.  
 
 
 
@@ -39,11 +41,11 @@ https://nanohub.org/resources/graft
 
 ## 2 Overview and Major Planned Features
 <!--Provide and overview characterising this proposed release.  Describe how users will interact with each proposed feature. Include a schematic/diagram to illustrate an overview of proposed software and achitecture componets for the project-->
-Users will be able to upload files and view graphs/data similar to the graphene fitting tool, but the corresponding data will be for the diamond spectrum.
+Users will be able to upload a nanodiamond Raman spectrum dataset in the form of .txt or .csv. The dataet will then be converted to graphs and readable data similar to the graphene fitting tool.
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
-This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the outputs are displayed.
+This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the outputs are displayed. Additionaly, this project will be a part of a larger toolset for the analysis and synthesis of nanodiamonds that could eventually include a growth simulation.
 
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
@@ -80,12 +82,16 @@ Features used
 Experience level
 Type of interaction
 Provide links to any user surveys, questionnaires, interviews, feedback or other relevant information.-->
-Anticipated users will be researchers who are working with nanodiamonds. This could include ND growth, ND applications, etc. Access to the application will be the same for everyone and no experience level will be necessary. There will likely be a function/area in which the user can provide feedback or comments. 
+The intended users will be researchers who are utilizing nanodiamonds in their research for either growth or other applications. 
+Users will upload txt or csv files of the raman spectrum they obtained.
+Access to the application will be the same for everyone.
+No experience level will be necessary to use the software, however an understanding of the Raman spectrum will be required. 
+
+
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
-Simple UI with clear features
-Clear and easy to read output graphs/data  
-Include user manual or tutorial
+Allow import of txt and csv files
+Quickly load Raman spectrum graph after "fitting" button is clicked and be able to save data
 
 ### 3.3 Proposed User Interface
 <!--Could include drawn mockups, screenshots of prototypes, comparison to existing software and other descriptions.-->
