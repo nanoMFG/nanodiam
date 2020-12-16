@@ -88,7 +88,7 @@ Access to the application will be the same for everyone, and no experience level
 
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
-Allow the user to upload .txt and .csv files 
+Allow the user to upload .txt and .csv files  
 Quickly the load Raman spectrum graph after "fitting" button is clicked  
 Function to allow user to save data locally
 
