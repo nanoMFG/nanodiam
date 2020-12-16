@@ -45,7 +45,7 @@ Users will be able to upload a nanodiamond Raman spectrum dataset in the form of
 
 ### 2.1 Product Background and Strategic Fit
 <!--Provide context for the proposed product.  Is this a completely new projects, or next version of an existing project? This can include a description of any contextual research, or the status of any existing prototype application.  If this SPD describes a component, describe its relationship to larger system. Can include diagrams.-->
-This project is a build-off of the exisitng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the outputs are displayed.  Further, this Raman analysis tool will be a part of a larger toolset used to optomize the analysis and synthesis of nanodiamonds.
+This project will be built off of the existinng Graphene Raman Fitting Tool. Many of the functions will be similar, such as the upload file function and the way in which the outputs are displayed.  Further, this Raman analysis tool will be a part of a larger toolset used to optomize the analysis and synthesis of nanodiamonds.
 
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
@@ -89,7 +89,7 @@ Access to the application will be the same for everyone, and no experience level
 ### 3.2 User Requirements
 <!-- Provide a list of issue links to document the main set of user requirements to be satisfied by this release.  Use the user requirement template to draft thense issues.  A well written user requirement should be easy to justify (Rational) and should be testable.  List in order of priority as must have, should have or nice to have for each use case. -->
 Allow the user to upload .txt and .csv files  
-Quickly the load Raman spectrum graph after "fitting" button is clicked  
+Quickly load Raman spectrum graph/data after "fitting" button is clicked  
 Function to allow user to save data locally
 
 ### 3.3 Proposed User Interface
