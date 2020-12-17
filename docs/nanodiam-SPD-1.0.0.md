@@ -50,7 +50,7 @@ This project will be built off of the existinng Graphene Raman Fitting Tool. Man
 ### 2.2 Scope and Limitations for Current Release
 <!--List the all planned goals/features for this release.  These should be links to issues.  Add a new subsection for each release.  Equally important, document feature you explicity are not doing at this time-->
 Goals:
-Make sure inputs (data) lead to correct outputs (graphs)
+Make sure inputs (raman data) lead to correct outputs (graphs/calculations)
 
 ##### 2.2.1 Planned Features
 Features:  
