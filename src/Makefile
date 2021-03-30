@@ -12,7 +12,7 @@ ndraman:
 	cp -p ../LICENSE ${DESTDIR}
 
 install:
-	. /etc/environ.sh; use -e -r anaconda6; $(MAKE) ndraman
+	. /etc/environ.sh; use -e -r anaconda-6; $(MAKE) ndraman
 
 clean:
 	rm -rf ${DESTDIR}/*.dist-info

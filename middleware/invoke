@@ -1,4 +1,5 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C "start_jupyter -t -T @tool mytool.ipynb" -t mytool \
--u anaconda3-5.1
+/usr/bin/invoke_app "$@" -C "python @tool/bin/ndraman/ndraman.py nanohub" -t ndraman \
+                         -u anaconda-6\
+                         -u pyqtgraph-0.10.0
