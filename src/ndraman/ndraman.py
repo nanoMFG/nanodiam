@@ -144,6 +144,7 @@ class NDRaman(QtWidgets.QWidget):
         self.layout.addWidget(self.displayWidget,2,0,1,3)
 
         self.flbut=QtWidgets.QPushButton('Upload File')
+        self.flbut.setToolTip("Please upload a .txt or .csv file")
         self.flbut.clicked.connect(self.openFileName)
         self.flbut.setMinimumSize(220,50)
         self.layout.addWidget(self.flbut,0,0)
@@ -385,8 +386,7 @@ class SingleSpect(QtWidgets.QWidget):
                 """u'\u03c9'"""="""+str(round(D_param[2],4))+"""  
             Int(D)/Int(G) = """+str(round((D_param[0]/G_param[0]),4))+"""
             Quality = """+str(round(100*(Diam_param[0]/(Diam_param[0]+(G_param[0]+D_param[0])/233))))+"""
-            Stress = """+str(round((-1.08)*(Diam_param[2]-1332),4))+"""
-            """u'\u03c3'"""(GPa) = """"""
+            """u'\u03c3'"""(GPa) = """" """+str(round((-1.08)*(Diam_param[2]-1332),4))+"""
             """)
         else:
              raise ValueError("Bad button name")
