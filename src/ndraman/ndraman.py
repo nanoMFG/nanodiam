@@ -114,7 +114,6 @@ class Main(QW.QMainWindow):
         else:
             version = ""
 
-        # Needs text
         about_text = "Version: %s \n\n"%version
         about_text += copyright
 
@@ -122,7 +121,7 @@ class Main(QW.QMainWindow):
         about_dialog.exec()
 
     def importTestSpectrum(self):
-        path = os.path.join(self.repo_dir,'data','raw','spectest.csv')
+        path = os.path.join(self.repo_dir,'src','ndraman', 'data','raw','test_spec.txt')
         filelist.append(path)
         self.mainWidget.filmfitbut.setEnabled(True)
         self.mainWidget.partfitbut.setEnabled(True)
@@ -303,9 +302,9 @@ class SingleSpect(QtWidgets.QWidget):
 
     def fitToPlot(self,x,y, button):
         I=self.backgroundFit(x,y)
-        pG=[0.8*np.max(I), 65, 1600] #a w b
+        pG=[0.5*np.max(I), 65, 1602] #a w b
         pDiam=[np.max(I), 6, 1332]
-        pD=[0.8*np.max(I),65,1350]
+        pD=[0.7*np.max(I),65,1347]
         
         #fit Diamond peak
         Diam_param,Diam_cov=curve_fit(self.Single_Lorentz,x,y,bounds=([0.3*np.max(I),0,1300],[1*np.max(I),10,1340]), p0=pDiam)
@@ -321,12 +320,8 @@ class SingleSpect(QtWidgets.QWidget):
         D_fit=self.Single_Lorentz(x,D_param[0],D_param[1],D_param[2])
 
         param_dict={'G':{'a':G_param[0],'w':G_param[1],'b':G_param[2]},'Diam_param':{'a':Diam_param[0],'w':Diam_param[1],'b':Diam_param[2]},'D':{'a':D_param[0],'w':D_param[1],'b':D_param[2]}}
-        #with open(raman.mainWidget.newpath+'/spectParams.json','w') as fp:
-        #    data=json.dump(param_dict, fp, sort_keys=True, indent=4)
 
         y_fit=Diam_fit+G_fit+D_fit 
-        #self.checkParams(G_param,Gp_param) commented out 
-        #commented below out
         
 
         self.fit_plot=pg.plot(x,y_fit,pen='k')
@@ -340,7 +335,6 @@ class SingleSpect(QtWidgets.QWidget):
         self.overlay_plot.addLegend(offset=(-1,1))
         self.overlay_plot.plot(x,y,pen='g',name='Raw Data')
         self.overlay_plot.plot(x,y_fit,pen='r',name='Fitted Data')
-        #self.overlay_plot.plot(x,y_test,pen='b',name='Test Data') commented out
         self.overlay_plot.setMenuEnabled(False)
         self.overlay_plot.setLabel('left','I<sub>norm</sub>[arb]')
         self.overlay_plot.setLabel('bottom',u'\u03c9'+'[cm<sup>-1</sup>]')
@@ -384,9 +378,9 @@ class SingleSpect(QtWidgets.QWidget):
                 """u'\u03b1'"""="""+str(round(D_param[0],4))+"""
                 """u'\u0393'"""="""+str(round(D_param[1],4))+"""
                 """u'\u03c9'"""="""+str(round(D_param[2],4))+"""  
-            Int(D)/Int(G) = """+str(round((D_param[0]/G_param[0]),4))+"""
-            Quality = """+str(round(100*(Diam_param[0]/(Diam_param[0]+(G_param[0]+D_param[0])/233))))+"""
-            """u'\u03c3'"""(GPa) = """" """+str(round((-1.08)*(Diam_param[2]-1332),4))+"""
+Int(D)/Int(G) = """+str(round((D_param[0]/G_param[0]),4))+"""
+Quality = """+'.'+str(round(100*(Diam_param[0]/(Diam_param[0]+(G_param[0]+D_param[0])/233))))+"""
+"""u'\u03c3'"""(GPa) = """" """+str(round((-1.08)*(Diam_param[2]-1332),4))+"""
             """)
         else:
              raise ValueError("Bad button name")
@@ -448,10 +442,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# if __name__=='__main__':
-#     REPO_DIR = subprocess.Popen(['git', 'rev-parse', '--show-toplevel'], stdout=subprocess.PIPE).communicate()[0].rstrip().decode('utf-8')
-#     app=QtWidgets.QApplication([])
-#     raman=Main(mode=mode, repo_dir=REPO_DIR)
-#     raman.show()
-#     app.exec_()
