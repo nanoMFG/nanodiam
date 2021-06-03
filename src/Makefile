@@ -10,6 +10,7 @@ ndraman:
 	cd .. && pip install --upgrade -t ${DESTDIR} .
 	cp -p ../VERSION ${DESTDIR}
 	cp -p -r ../src/ndraman/util/icons_catalogue ${DESTDIR}/ndraman/util
+	cp -p -r ../src/ndraman/data/raw ${DESTDIR}/ndraman/data
 	cp -p ../LICENSE ${DESTDIR}
 
 install:
