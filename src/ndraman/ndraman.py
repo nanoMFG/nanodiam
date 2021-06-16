@@ -121,7 +121,7 @@ class Main(QW.QMainWindow):
         about_dialog.exec()
 
     def importTestSpectrum(self):
-        path = os.path.join(self.repo_dir,'src','ndraman', 'data','raw','test_spec.txt')
+        path = os.path.join(self.repo_dir,'data','raw','test_spec.txt')
         filelist.append(path)
         self.mainWidget.filmfitbut.setEnabled(True)
         self.mainWidget.partfitbut.setEnabled(True)
