@@ -2,4 +2,6 @@
 
 /usr/bin/invoke_app "$@" -C "python @tool/bin/ndraman/ndraman.py nanohub" -t ndraman \
                          -u anaconda-6\
-                         -u pyqtgraph-0.10.0
+                         -u pyqtgraph-0.10.0\
+                         -e RUN_LOCATION=@tool/bin
+                        
